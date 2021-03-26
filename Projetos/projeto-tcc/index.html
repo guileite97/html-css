@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoneyPot</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1>HoneyPot</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="quem-somos.html">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="cadastro.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <article class="conteudo">
+            <section >
+                <h2>Estratégias de Segurança da Informação Utilizando HoneyPot</h2>
+                
+                
+                <p>Com o avanço da Internet, milhões de pessoas e instituições estão interligadas via rede mundial de computadores. A segurança passou a ser uma necessidade fundamental tornando-se foco de discussão das comunidades envolvidas com a tecnologia de redes (SCHNEIER, 2001).</p>
+                <p>Nesse contexto, a super conectividade abre a possibilidade para pessoas más intencionadas aproveitarem-se disso para roubar dados de usuários e/ou organizações, causando prejuízos aos afetados às vezes milionários.</p>
+                <p>Kevin Mitnik, considerado o maior <em>hacker</em> dos EUA nos anos 90, que hoje é consultor de segurança, escreveu no livro A Arte de Invadir: “Qual é o ativo mais valioso do mundo em qualquer organização? Não é o <em>hardware</em> de computador, não são os escritórios nem a fábrica, nem mesmo o que é proclamado no tão conhecido clichê da corporação: "Nosso ativo mais valioso é nosso pessoal". O fato óbvio é que qualquer um deles pode ser substituído. Tudo bem, não tão facilmente, não sem luta, mas muitas empresas sobreviveram depois que sua fábrica foi queimada ou que alguns funcionários-chave saíram. Sobreviver à perda da propriedade intelectual, entretanto, é uma história totalmente diferente. Se alguém rouba seus designs de produto, sua lista de clientes, seus planos de novos produtos, seus dados de P&D - esse seria um golpe que poderia fazer sua empresa desaparecer”. (MITNICK E SIMON, 2006).</p> 
+                <p>Os hackers possuem diversas formas de ataques, como DDoS, DoS, Worm, Spoofing, Engenharia social entre muitos outros. As pessoas e organizações estão encontrando formas para se defenderem destes ataques, uma dessas formas de se proteger de um hacker é uma estratégia chamada Honeypot na qual é implementado com falhas propositais para atrair invasores. Após as invasões pode-se observar os dados obtidos em relação aos métodos utilizados pelo invasor para adentrar no sistema, assim podendo através desta análise melhorar seu sistema principal para que não seja invadido desta mesma maneira ou similar. </p> 
+                <p>Surgem então os sistemas que tem como objetivo antecipar-se aos ataques através da monitoração, captura e leitura de dados, conhecidos como honeypots.</p> 
+                <figure>
+                    <img src="Imagens/honeypot1.png" alt="imagem honeypot">
+                    <figcaption>Rede com honeypot instalado</figcaption>
+                </figure>
+
+                <p>O significado da palavra Honeypot traduzido do Inglês para o Português quer dizer  pote de mel, ou seja, uma forma de atrair abelhas para um pote. O software honeypot é um recurso computacional de segurança dedicado a ser atacado ou comprometido, a ferramenta irá interagir com um possível cracker se passando por um equipamento legítimo da empresa onde essa ferramenta propositalmente possui falhas e portas abertas para atrair os atacantes.</p>
+ 
+                <p>Podemos considerar que o honeypot é uma armadilha, uma tipo de isca para os crackers e que a partir de todo o processo de ataque do craker, o administrador do sistema poderá adquirir maior conhecimento sobre novos ataques, sendo assim, aprimorar  a segurança da rede local ao mesmo tempo. </p> 
+                <h3>Componentes:</h3> 
+                <p>Usamos como parte física do projeto um computador chamado raspberry pi que possui um baixo custo e de fácil manuseio. Ele quem receberá o software com o honeypot</p>
+                <figure>
+                    <img src="Imagens/honeypot.png" alt="imagem raspberry pi">
+                    <figcaption>raspberry Pi</figcaption>
+                </figure>             
+                
+            </section>
+            
+
+        </article>
+    </div>
+</body>
+</html>
